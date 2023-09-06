@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a709f5-c1dd-448a-899f-0a8a52259ff3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/Audio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/AudioVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/AudioVolume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/BGMVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/BGMVolume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/OutputBGMVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/OutputBGMVolume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/SoundVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/SoundVolume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/test/java/AudioTestAfterRefactoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/AudioTestAfterRefactoring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/AudioTestBeforeRefactoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/AudioTestBeforeRefactoring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/User/Projects/Lab/Audio/lib/src/main/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/User/Projects/Lab/Audio/lib/src/main/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\User\Projects\Lab\Audio\lib\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.AudioTestBeforeRefactoring.adjustVolumesTest">
     <configuration name="AudioTestAfterRefactoring.someLibraryMethodReturnsTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -92,8 +87,58 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="AudioTestBeforeRefactoring" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;AudioTestBeforeRefactoring&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AudioTestBeforeRefactoring.adjustVolumesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;AudioTestBeforeRefactoring.adjustVolumesTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AudioTestBeforeRefactoring.adjustVolumesTest" />
+        <item itemvalue="Gradle.AudioTestBeforeRefactoring" />
         <item itemvalue="Gradle.AudioTestAfterRefactoring.someLibraryMethodReturnsTrue" />
       </list>
     </recent_temporary>
@@ -108,5 +153,20 @@
       <updated>1694003216312</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/lib/src/test/java/AudioTestBeforeRefactoring.java</url>
+          <line>4</line>
+          <properties class="AudioTestBeforeRefactoring" method="adjustVolumesTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
