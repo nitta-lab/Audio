@@ -5,7 +5,7 @@ public class BGMVolume {
 	public double getValue() {
 		return this.value;
 	}
-	public void setVolume(double volume) {
+	public void setBGMVolume(double volume) {
 		this.value = volume;
 	}
 }

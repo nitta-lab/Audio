@@ -5,7 +5,7 @@ public class AudioVolume {
 	public double getValue() {
 		return this.value;
 	}
-	public void setVolume(double volume) {
+	public void setAudioVolume(double volume) {
 		this.value = volume;
 	}
 }

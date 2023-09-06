@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a709f5-c1dd-448a-899f-0a8a52259ff3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/Audio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/AudioVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/AudioVolume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/BGMVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/BGMVolume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/OutputBGMVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/OutputBGMVolume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/OutputSoundVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/OutputSoundVolume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/SoundVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/SoundVolume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/AudioTestAfterRefactoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/AudioTestAfterRefactoring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +24,31 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2V1Ujim0jx4MmipfbdY9BlR9R3c" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,9 +59,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/User/Projects/Lab/Audio"
+    "last_opened_file_path": "D:/User/Projects/Lab/Audio/lib/src/main/java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\User\Projects\Lab\Audio\lib\src\main\java" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="AudioTestAfterRefactoring.someLibraryMethodReturnsTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
